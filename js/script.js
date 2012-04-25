@@ -78,6 +78,7 @@ var csRouter = Backbone.Router.extend({
   
   initialize : function () {
     this.view = new csView({ model : new csModel() });
+    locache.flush();
     window.location.href = window.location.href.substring(0, window.location.href.indexOf('#')) + '#1';
   }, 
   
