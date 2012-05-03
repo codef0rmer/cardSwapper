@@ -83,7 +83,7 @@ App.View = Backbone.View.extend({
 			var $tableRow = $('<div />').addClass('row');
 			
 			for (var col = 0; col < this.cols; col++) {
-				var card = cards.shift(),
+				var card = cards.models.shift(),
 					imageSrc = './img/' + card.get('card') + ".svg",
 					$cell = this.template.clone();
 				
