@@ -18,7 +18,7 @@ Clone the git repo - `git clone git@github.com:codef0rmer/cardSwapper.git` - or 
 
 ## Contributing
 
-Anyone and everyone is welcome to contribute.
+Anyone and everyone is welcome to contribute. Special thanks to [Joe Zim](http://www.joezimjs.com/about/).
 
 
 ## License
